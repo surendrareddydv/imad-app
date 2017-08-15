@@ -10,13 +10,13 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('Article-One', function (req, res) {
+app.get('/article-one', function (req, res) {
   res.send('Article one requested and will be served her');
 });
-app.get('Article-Two', function (req, res) {
+app.get('/article-two', function (req, res) {
   res.send('Article two requested and will be served her');
 });
-app.get('Article-Three', function (req, res) {
+app.get('/article-three', function (req, res) {
   res.send('Article Three requested and will be served her');
 });
 
